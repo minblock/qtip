@@ -121,10 +121,10 @@ public:
         consensus.devAddressPubKey = "841e6bf56b99a59545da932de2efb23ab93b4f44";
         consensus.devAddress = "SZLafuDjnjqh2tAfTrG9ZAGzbP8HkzNXvB";
         consensus.cBurnAddressPubKey = "ebaf5ec74cb2e2342dfda0229111738ff4dc742d";
-        consensus.cBurnAddress = "SinBurnAddress123456789SuqaXbx3AMC";
-        consensus.cMetadataAddress = "SinBurnAddressForMetadataXXXXEU2mj";
-        consensus.cNotifyAddress = "SinBurnAddressForNotifyXXXXXc42TcT";
-        consensus.cGovernanceAddress = "SinBurnAddressGovernanceVoteba5vkQ";
+        consensus.cBurnAddress = "QSteesBurnAddress123456789SuqaXbx3AMC";
+        consensus.cMetadataAddress = "QSteesBurnAddressForMetadataXXXXEU2mj";
+        consensus.cNotifyAddress = "QSteesBurnAddressForNotifyXXXXXc42TcT";
+        consensus.cGovernanceAddress = "QSteesBurnAddressGovernanceVoteba5vkQ";
         strSporkPubKey = "0449434681D96595AC04470E5613475D259489CAA79C260814D22D4F29F7361D84A85F1F535F7B11F51B87F4E7B8E168AA68747A6E7465DCF34ABDD25570430573";
 
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
@@ -247,11 +247,11 @@ public:
         consensus.nMinerConfirmationWindow = 2016;
         consensus.devAddressPubKey = "841e6bf56b99a59545da932de2efb23ab93b4f44";
         consensus.devAddress = "SZLafuDjnjqh2tAfTrG9ZAGzbP8HkzNXvB";
-        consensus.cBurnAddress = "SinBurnAddress123456789SuqaXbx3AMC";
+        consensus.cBurnAddress = "QSteesBurnAddress123456789SuqaXbx3AMC";
         consensus.cBurnAddressPubKey = "ebaf5ec74cb2e2342dfda0229111738ff4dc742d";
-        consensus.cMetadataAddress = "SinBurnAddressForMetadataXXXXEU2mj";
-        consensus.cNotifyAddress = "SinBurnAddressForNotifyXXXXXc42TcT";
-        consensus.cGovernanceAddress = "SinBurnAddressGovernanceVoteba5vkQ";
+        consensus.cMetadataAddress = "QSteesBurnAddressForMetadataXXXXEU2mj";
+        consensus.cNotifyAddress = "QSteesBurnAddressForNotifyXXXXXc42TcT";
+        consensus.cGovernanceAddress = "QSteesBurnAddressGovernanceVoteba5vkQ";
         strSporkPubKey = "0454E1B43ECCAC17E50402370477455BE34593E272CA9AE0DF04F6F3D423D1366D017822C77990A3D8DD980C60D3692C9B6D7DFD75F683F7056C1E97E82BD94DBE";
 
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
@@ -369,11 +369,11 @@ public:
         consensus.nMinerConfirmationWindow = 2016;
         consensus.devAddressPubKey = "841e6bf56b99a59545da932de2efb23ab93b4f44";
         consensus.devAddress = "SZLafuDjnjqh2tAfTrG9ZAGzbP8HkzNXvB";
-        consensus.cBurnAddress = "SinBurnAddress123456789SuqaXbx3AMC";
+        consensus.cBurnAddress = "QSteesBurnAddress123456789SuqaXbx3AMC";
         consensus.cBurnAddressPubKey = "ebaf5ec74cb2e2342dfda0229111738ff4dc742d";
-        consensus.cMetadataAddress = "SinBurnAddressForMetadataXXXXEU2mj";
-        consensus.cNotifyAddress = "SinBurnAddressForNotifyXXXXXc42TcT";
-        consensus.cGovernanceAddress = "SinBurnAddressGovernanceVoteba5vkQ";
+        consensus.cMetadataAddress = "QSteesBurnAddressForMetadataXXXXEU2mj";
+        consensus.cNotifyAddress = "QSteesBurnAddressForNotifyXXXXXc42TcT";
+        consensus.cGovernanceAddress = "QSteesBurnAddressGovernanceVoteba5vkQ";
         strSporkPubKey = "0454E1B43ECCAC17E50402370477455BE34593E272CA9AE0DF04F6F3D423D1366D017822C77990A3D8DD980C60D3692C9B6D7DFD75F683F7056C1E97E82BD94DBE";
 
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;

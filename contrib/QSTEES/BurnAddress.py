@@ -45,7 +45,7 @@ if __name__ == "__main__":
   if len(sys.argv) != 2:
     usage()
   if sys.argv[1] == "test":
-    template = "SinBurnAddressForPubContentXXXXXXX"
+    template = "QSteesBurnAddressForPubContentXXXXXXX"
   else:
     template = sys.argv[1]
   for c in template:
