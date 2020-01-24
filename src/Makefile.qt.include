@@ -126,7 +126,7 @@ QT_MOC_CPP = \
   qt/moc_bantablemodel.cpp \
   qt/moc_qsteesaddressvalidator.cpp \
   qt/moc_qsteesamountfield.cpp \
-  qt/moc_singui.cpp \
+  qt/moc_qsteesgui.cpp \
   qt/moc_qsteesunits.cpp \
   qt/moc_callback.cpp \
   qt/moc_clientmodel.cpp \
@@ -201,7 +201,7 @@ BITCOIN_QT_H = \
   qt/bantablemodel.h \
   qt/qsteesaddressvalidator.h \
   qt/qsteesamountfield.h \
-  qt/singui.h \
+  qt/qsteesgui.h \
   qt/qsteesunits.h \
   qt/callback.h \
   qt/clientmodel.h \
@@ -323,7 +323,7 @@ BITCOIN_QT_BASE_CPP = \
   qt/bantablemodel.cpp \
   qt/qsteesaddressvalidator.cpp \
   qt/qsteesamountfield.cpp \
-  qt/singui.cpp \
+  qt/qsteesgui.cpp \
   qt/qsteesunits.cpp \
   qt/clientmodel.cpp \
   qt/csvmodelwriter.cpp \

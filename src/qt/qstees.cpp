@@ -6,7 +6,7 @@
 #include <config/qstees-config.h>
 #endif
 
-#include <qt/singui.h>
+#include <qt/qsteesgui.h>
 
 #include <chainparams.h>
 #include <qt/clientmodel.h>

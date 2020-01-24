@@ -309,7 +309,7 @@
 <context>
     <name>QSTEESGUI</name>
     <message>
-        <location filename="../singui.cpp" line="+307"/>
+        <location filename="../qsteesgui.cpp" line="+307"/>
         <source>Sign &amp;message...</source>
         <translation>Sign &amp;message...</translation>
     </message>
@@ -3942,7 +3942,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
-        <location filename="../singui.cpp" line="+159"/>
+        <location filename="../qsteesgui.cpp" line="+159"/>
         <source>Unit to show amounts in. Click to select another unit.</source>
         <translation type="unfinished"></translation>
     </message>
