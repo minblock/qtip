@@ -10,7 +10,7 @@
 
 #include <qt/forms/ui_helpmessagedialog.h>
 
-#include <qt/singui.h>
+#include <qt/qsteesgui.h>
 #include <qt/clientmodel.h>
 #include <qt/guiconstants.h>
 #include <qt/intro.h>

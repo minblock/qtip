@@ -5,7 +5,7 @@
 #include <qt/walletframe.h>
 #include <qt/walletmodel.h>
 
-#include <qt/singui.h>
+#include <qt/qsteesgui.h>
 #include <qt/walletview.h>
 
 #include <cassert>
