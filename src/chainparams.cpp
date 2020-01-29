@@ -92,17 +92,17 @@ public:
         consensus.nLimitQSTEESNODE_5=375;
         consensus.nLimitQSTEESNODE_10=375;
         consensus.nInstantSendKeepLock = 24;
-        consensus.nInfinityNodeBeginHeight=160000;
+        consensus.nInfinityNodeBeginHeight=9999999999; // Disabled
         consensus.nInfinityNodeGenesisStatement=250000;
         consensus.nInfinityNodeUpdateMeta=25;
         consensus.nInfinityNodeVoteValue=100;
 
-        consensus.nBudgetPaymentsStartBlock = 365 * 1440 * 5; // 1 common year
+        consensus.nBudgetPaymentsStartBlock = 9999999999; // Disabled
         consensus.nBudgetPaymentsCycleBlocks = 10958; // weekly
         consensus.nBudgetPaymentsWindowBlocks = 100;
         consensus.nBudgetProposalEstablishingTime = 86400; // 1 day
 
-        consensus.nSuperblockStartBlock = 365 * 1440 * 5; // 1 common year
+        consensus.nSuperblockStartBlock = 9999999999; // Disabled
         consensus.nSuperblockCycle = 10958; // weekly
 
         consensus.nGovernanceMinQuorum = 10;
@@ -213,7 +213,7 @@ public:
         strNetworkID = "test";
         consensus.nSubsidyHalvingInterval = 210000;
         consensus.nMasternodeMinimumConfirmations = 15;
-        consensus.nMasternodePaymentsStartBlock = 50;
+        consensus.nMasternodePaymentsStartBlock = 9999999999; // Disabled
         consensus.nMasternodeCollateralMinimum = 10;
         consensus.nMasternodeBurnQSTEESNODE_1 = 100000;
         consensus.nMasternodeBurnQSTEESNODE_5 = 500000;
@@ -226,11 +226,11 @@ public:
         consensus.nInfinityNodeGenesisStatement=110;
         consensus.nInfinityNodeUpdateMeta=5;
 
-        consensus.nBudgetPaymentsStartBlock = 365 * 1440; // 1 common year
+        consensus.nBudgetPaymentsStartBlock = 9999999999; // Disabled
         consensus.nBudgetPaymentsCycleBlocks = 10958; // weekly
         consensus.nBudgetPaymentsWindowBlocks = 100;
         consensus.nBudgetProposalEstablishingTime = 86400; // 1 day
-        consensus.nSuperblockStartBlock = 365 * 1440; // 1 common year
+        consensus.nSuperblockStartBlock = 9999999999; // Disabled
         consensus.nSuperblockCycle = 10958; // weekly
         consensus.nGovernanceMinQuorum = 10;
         consensus.nGovernanceFilterElements = 20000;
@@ -248,8 +248,8 @@ public:
         consensus.nMinerConfirmationWindow = 2016;
         consensus.devAddressPubKey = "841e6bf56b99a59545da932de2efb23ab93b4f44";
         consensus.devAddress = "SZLafuDjnjqh2tAfTrG9ZAGzbP8HkzNXvB";
-        consensus.cBurnAddress = "QSteesBurnAddress123456789SuqaXbx3AMC";
-        consensus.cBurnAddressPubKey = "ebaf5ec74cb2e2342dfda0229111738ff4dc742d";
+        consensus.cBurnAddress = "QSteesBurnAddress123456788SuqaXbx3AMC";
+        consensus.cBurnAddressPubKey = "ebaf5ec74cb2e2342dfda0229133738ff4dc742d";
         consensus.cMetadataAddress = "QSteesBurnAddressForMetadataXXXXEU2mj";
         consensus.cNotifyAddress = "QSteesBurnAddressForNotifyXXXXXc42TcT";
         consensus.cGovernanceAddress = "QSteesBurnAddressGovernanceVoteba5vkQ";
@@ -370,8 +370,8 @@ public:
         consensus.nMinerConfirmationWindow = 2016;
         consensus.devAddressPubKey = "841e6bf56b99a59545da932de2efb23ab93b4f44";
         consensus.devAddress = "SZLafuDjnjqh2tAfTrG9ZAGzbP8HkzNXvB";
-        consensus.cBurnAddress = "QSteesBurnAddress123456789SuqaXbx3AMC";
-        consensus.cBurnAddressPubKey = "ebaf5ec74cb2e2342dfda0229111738ff4dc742d";
+        consensus.cBurnAddress = "QSteesBurnAddress123456788SuqaXbx3AMC";
+        consensus.cBurnAddressPubKey = "ebaf5ec74cb2e2342dfda0229133738ff4dc742d";
         consensus.cMetadataAddress = "QSteesBurnAddressForMetadataXXXXEU2mj";
         consensus.cNotifyAddress = "QSteesBurnAddressForNotifyXXXXXc42TcT";
         consensus.cGovernanceAddress = "QSteesBurnAddressGovernanceVoteba5vkQ";
@@ -412,8 +412,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        vSeeds.emplace_back("178.128.230.114");
-        vSeeds.emplace_back("178.62.226.114");
+        vSeeds.emplace_back("192.3.3.30");
         nDefaultPort = 20990;
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,63);
