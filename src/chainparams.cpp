@@ -118,10 +118,10 @@ public:
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1916;
         consensus.nMinerConfirmationWindow = 2016;
-        consensus.devAddressPubKey = "841e6bf56b99a59545da932de2efb23ab93b4f44";
-        consensus.devAddress = "SZLafuDjnjqh2tAfTrG9ZAGzbP8HkzNXvB";
-        consensus.cBurnAddressPubKey = "ebaf5ec74cb2e2342dfda0229111738ff4dc742d";
-        consensus.cBurnAddress = "QSteesBurnAddress123456789SuqaXbx3AMC";
+        consensus.devAddressPubKey = "76a9145f56edf99057cc87490c3d58f269865581ca0c2f88ac";
+        consensus.devAddress = "QVJ6SVkaTG2Ksh1FzQU4N1HzRRiHScXtkA";
+        consensus.cBurnAddressPubKey = "ebaf5ec74cb2e2342dfda0229133738ff4dc742d";
+        consensus.cBurnAddress = "QSteesBurnAddress123456788SuqaXbx3AMC";
         consensus.cMetadataAddress = "QSteesBurnAddressForMetadataXXXXEU2mj";
         consensus.cNotifyAddress = "QSteesBurnAddressForNotifyXXXXXc42TcT";
         consensus.cGovernanceAddress = "QSteesBurnAddressGovernanceVoteba5vkQ";
